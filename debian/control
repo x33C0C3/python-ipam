@@ -1,0 +1,16 @@
+Source: python-ipam
+Section: python
+Priority: optional
+Maintainer: kokono <46404153+x33C0C3@users.noreply.github.com>
+Build-Depends: debhelper (>= 10), dh-python, python3-all
+Standards-Version: 4.0.0
+Vcs-Browser: https://github.com/x33C0C3/python-ipam
+Vcs-Git: https://github.com/x33C0C3/python-ipam.git
+
+Package: python3-kokono-ipam
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: Monitor the IP address list. (Python 3)
+ A poor copy of `ip addr list` of iproute2.
+ .
+ This package installs the library for Python 3.
